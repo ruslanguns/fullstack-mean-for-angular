@@ -1,0 +1,47 @@
+{
+    "name": "backend_server_mean_ts",
+    "version": "1.0.0",
+    "description": "FullStack Server using Node + TypeScript + Mongodb + Angular + Express",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "tsc -w",
+        "start": "nodemon ./dist/index"
+    },
+    "keywords": [
+        "mean",
+        "typescript",
+        "backend",
+        "fullstack",
+        "angular",
+        "web-app",
+        "mongodb"
+    ],
+    "author": "Ruslan Gonzalez <ruslanguns@gmail.com> (http://rusgunx.tk/)",
+    "license": "MIT",
+    "dependencies": {
+        "@types/cors": "^2.8.4",
+        "@types/express": "^4.16.1",
+        "@types/mongoose": "^5.3.19",
+        "bcrypt": "^3.0.4",
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.5",
+        "dotenv": "^6.2.0",
+        "event-stream": "^4.0.1",
+        "express": "^4.16.4",
+        "express-fileupload": "^1.1.1-alpha.3",
+        "google-auth-library": "^3.1.0",
+        "jsonwebtoken": "^8.5.0",
+        "jwt-decode": "^2.2.0",
+        "mongoose": "^5.4.15",
+        "mongoose-unique-validator": "^2.0.2",
+        "nodemailer": "^5.1.1",
+        "serve-index": "^1.9.1",
+        "tslint": "^5.13.0",
+        "typescript": "^3.3.3333"
+    },
+    "devDependencies": {
+        "@types/mongodb": "^3.1.19",
+        "nodemon": "^1.18.10"
+    }
+}
