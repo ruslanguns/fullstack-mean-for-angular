@@ -16,6 +16,42 @@ Este es un proyecto Full Stack con Angular... la idea de éste proyecto es tener
 
 En el root del repositorio existe una carpeta con el nombre "angular-src" donde se supone que debe ir el proyecto angular de desarrollo, de tal manera solo es necesario hacer un `ng new angular-src` y para utilizarlo en modo desarrollo un `npm run front-dev` el cual seria un equivalente al `ng serve`, en el archivo "package.json" está la configuración del script para personalizarlo y utilizar un puerto diferente al 4200 con la bandera `--port=`.
 
+### Inicio rápido
+``` bash
+$ git clone git@github.com:ruslanguns/fullstack-mean-for-angular.git
+
+# Vamos al directorio del repo
+$ cd fullstack-mean-for-angular
+
+# Instalamos todas las dependencias
+$ npm run setup
+
+# Compilamos el typescrypt
+$ tsc
+
+# Iniciamos el server
+$ npm run start
+
+# Output esperado: 
+$ npm run start
+
+> backend_server_mean_ts@1.0.0 start C:\Users\xxxx\fullstack-mean-for-angular
+> nodemon ./dist/index
+
+[nodemon] 1.18.10
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node ./dist/index.js`
+Servidor corriendo en el puerto 3000
+La base de datos esta ONLINE
+
+# Desplegamos el modo desarrollo de Angular
+$ npm run serve
+
+# Desplegamos el modo desarrollo de Angular para abrir el navegador automáticamente
+$ npm run serve-o
+```
+
 ### Requisitos
 Para poder hacer uso de este proyecto es importante tener desde antes instalado de forma global npm, node y mongodb.
 
