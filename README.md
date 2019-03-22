@@ -17,6 +17,9 @@ Este es un proyecto Full Stack con Angular... la idea de éste proyecto es tener
 En el root del repositorio existe una carpeta con el nombre "angular-src" donde se supone que debe ir el proyecto angular de desarrollo, de tal manera solo es necesario hacer un `ng new angular-src` y para utilizarlo en modo desarrollo un `npm run front-dev` el cual seria un equivalente al `ng serve`, en el archivo "package.json" está la configuración del script para personalizarlo y utilizar un puerto diferente al 4200 con la bandera `--port=`.
 
 ### Inicio rápido
+
+![Installation process](https://rusgunx.tk/public/ezgif-2-741df5ce8079.gif)
+
 ``` bash
 # 1. Clonamos el proyecto
 $ git clone git@github.com:ruslanguns/fullstack-mean-for-angular.git
