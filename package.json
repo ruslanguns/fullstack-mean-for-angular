@@ -9,7 +9,7 @@
         "watch": "tsc -w",
         "start": "nodemon ./dist/index",
         "start-prod": "node ./dist/index",
-        "build": "pushd angular-src && ng build --base-href \"./\"&& popd",
+        "build": "pushd angular-src && ng build --prod --base-href \"./\"&& popd",
         "serve": "pushd angular-src && ng serve --port=4200",
         "serve-o": "pushd angular-src && ng serve -o --port=4200"
     },
