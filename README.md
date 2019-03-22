@@ -18,21 +18,22 @@ En el root del repositorio existe una carpeta con el nombre "angular-src" donde 
 
 ### Inicio rápido
 ``` bash
+# 1. Clonamos el proyecto
 $ git clone git@github.com:ruslanguns/fullstack-mean-for-angular.git
 
-# Vamos al directorio del repo
+# 2. Vamos al directorio del repo
 $ cd fullstack-mean-for-angular
 
-# Instalamos todas las dependencias
+# 3. Instalamos todas las dependencias
 $ npm run setup
 
-# Compilamos el typescrypt
+# 4. Compilamos el typescrypt
 $ tsc
 
-# Creamos el archivo .env
+# 5. Creamos el archivo .env
 $ mv .env.example .env
 
-# Iniciamos el server
+# 6. Iniciamos el server
 $ npm run start
 
 # Output esperado: 
@@ -46,10 +47,10 @@ $ npm run start
 Servidor corriendo en el puerto 3000
 La base de datos esta ONLINE
 
-# Desplegamos el modo desarrollo de Angular
+# 7. Desplegamos el modo desarrollo de Angular
 $ npm run serve
 
-# Desplegamos el modo desarrollo de Angular para abrir el navegador automáticamente
+# 8. Desplegamos el modo desarrollo de Angular para abrir el navegador automáticamente
 $ npm run serve-o
 ```
 
