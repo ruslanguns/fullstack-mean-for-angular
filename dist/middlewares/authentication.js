@@ -1,13 +1,16 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-const jwt = require('jsonwebtoken');
-const SEED = require('../config/config').SEED;
+const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
+const environment_1 = require("../config/environment");
 // ====================================
 // VERIFICAR TOKEN — API  Midleware
 // ====================================
 function verificaToken(req, res, next) {
     const token = req.query.token;
-    jwt.verify(token, SEED, (err, decoded) => {
+    jsonwebtoken_1.default.verify(token, environment_1.SEED, (err, decoded) => {
         if (err) {
             return res.status(401).json({
                 ok: false,
