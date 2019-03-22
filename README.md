@@ -1,11 +1,11 @@
 # Full Stack Angular Server
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
- [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
- [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
- [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/contributors/)
- [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/issues/)
- [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
-[![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+ [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/ruslanguns/fullstack-mean-for-angular/graphs/commit-activity)
+ [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/ruslanguns)
+ [![GitHub contributors](https://img.shields.io/github/contributors/ruslanguns/fullstack-mean-for-angular.svg)](https://GitHub.com/ruslanguns/fullstack-mean-for-angular/graphs/contributors/)
+ [![GitHub issues](https://img.shields.io/github/issues/ruslanguns/fullstack-mean-for-angular.svg)](https://GitHub.com/ruslanguns/fullstack-mean-for-angular/issues/)
+ [![GitHub version](https://badge.fury.io/gh/ruslanguns%2Ffullstack-mean-for-angular.svg)](https://github.com/ruslanguns/fullstack-mean-for-angular)
+[![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ruslanguns/fullstack-mean-for-angular/)
 
 Author: Ruslan Gonzalez
 
