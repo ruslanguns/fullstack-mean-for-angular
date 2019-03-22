@@ -5,10 +5,10 @@
  [![GitHub contributors](https://img.shields.io/github/contributors/ruslanguns/fullstack-mean-for-angular.svg)](https://GitHub.com/ruslanguns/fullstack-mean-for-angular/graphs/contributors/)
  [![GitHub issues](https://img.shields.io/github/issues/ruslanguns/fullstack-mean-for-angular.svg)](https://GitHub.com/ruslanguns/fullstack-mean-for-angular/issues/)
  [![GitHub version](https://badge.fury.io/gh/ruslanguns%2Ffullstack-mean-for-angular.svg)](https://github.com/ruslanguns/fullstack-mean-for-angular)
-[![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ruslanguns/fullstack-mean-for-angular/)
 
 Author: Ruslan Gonzalez
 
+[![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ruslanguns/fullstack-mean-for-angular/)
 ## Español
 
 ### Introducción
