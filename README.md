@@ -29,12 +29,13 @@ $ npm run setup
 # Compilamos el typescrypt
 $ tsc
 
+# Creamos el archivo .env
+$ mv .env.example .env
+
 # Iniciamos el server
 $ npm run start
 
 # Output esperado: 
-$ npm run start
-
 > backend_server_mean_ts@1.0.0 start C:\Users\xxxx\fullstack-mean-for-angular
 > nodemon ./dist/index
 
