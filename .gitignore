@@ -1,6 +1,6 @@
 package-lock.json
 
-dist/
+dist/*
 public/*
 
 # Logs
