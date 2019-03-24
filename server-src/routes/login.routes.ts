@@ -2,7 +2,7 @@ import { Router, Request, Response } from "express";
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
 
-import * as mdWAUTH from '../middlewares/authentication';
+import * as mdw from '../middlewares';
 import * as env from '../config/environment';
 import Usuario from '../models/user.model';
 
@@ -16,7 +16,7 @@ const client = new OAuth2Client( CLIENT_ID );
 // ====================================
 // AUTENTICACION TOKEN
 // ====================================
-router.get('/renuevatoken', mdWAUTH.verificaToken, ( req: Request, res: Response ) => {
+router.get('/renuevatoken', mdw.verificaToken, ( req: Request, res: Response ) => {
 
     let usuarioReq = req.params.usuario;
 

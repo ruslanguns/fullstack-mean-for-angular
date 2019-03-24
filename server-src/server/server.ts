@@ -12,7 +12,7 @@ db.Database();
 import appRoutes from '../routes/app.routes';
 import userRoutes from '../routes/user.routes';
 import loginRoutes from '../routes/login.routes';
-import mailRoutes from '../routes/login.routes';
+import mailRoutes from '../routes/mail.routes';
 
 
 export default class Server {
@@ -31,7 +31,7 @@ export default class Server {
 
         this.app.use( '/api/v1/usuario', userRoutes );
         this.app.use( '/api/v1/login', loginRoutes );
-        this.app.use( '/api/v1/mail', mailRoutes )
+        this.app.use( '/api/v1/mail', mailRoutes );
         this.app.use( '/api/v1', appRoutes );
     }
 

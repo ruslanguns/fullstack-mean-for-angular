@@ -44,8 +44,7 @@ export const DATOS_SMTP = {
 }
 
 // mail envelop setup
-const EMAIL_FROM_NAME: string = process.env.FROM_NAME || '';
-const EMAIL_FROM_EMAIL: string =  process.env.FROM_EMAIL || '';
+let EMAIL_FROM_NAME: string = process.env.EMAIL_FROM_NAME || '';
+let EMAIL_FROM_EMAIL: string =  process.env.EMAIL_FROM_EMAIL || '';
 
-export const EMAIL_FROM = `"${ EMAIL_FROM_NAME }" <${ EMAIL_FROM_EMAIL }>`;
-
+export const EMAIL_FROM = `\"${ EMAIL_FROM_NAME }\" <${ EMAIL_FROM_EMAIL }>`;

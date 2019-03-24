@@ -5,8 +5,8 @@ export interface UsuarioI {
   nombre: string;
   email: string;
   password: string; 
-  google: boolean;
-  role: string;
-  img: string;
+  google?: boolean;
+  role?: string;
+  img?: string;
 
 }

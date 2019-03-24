@@ -1,8 +1,7 @@
 import { Router, Request, Response } from "express";
 import bcrypt from 'bcrypt';
 
-import Usuario from '../models/user.model';
-import { UsuarioI } from "../interfaces/usuario";
+import Usuario, { IUser } from '../models/user.model';
 import * as mdwAUTH from '../middlewares/authentication';
 
 const router = Router();
@@ -49,7 +48,7 @@ router.get('/:id', (req: Request, res: Response) => {
 
   const id = req.params.id;
 
-  Usuario.findById( id, ( err: Error, usuario: UsuarioI) => {
+  Usuario.findById( id, ( err: Error, usuario: IUser) => {
 
     if ( err ) {
       return res.status( 500 ).json({
@@ -75,7 +74,7 @@ router.put('/:id', [mdwAUTH.verificaToken, mdwAUTH.verificaAdminRole, mdwAUTH.ve
   const id = req.params.id;
   const body = req.body;
 
-  Usuario.findById(id, ( err: Error, usuario: any ) => {
+  Usuario.findById(id, ( err: Error, usuario: IUser ) => {
 
     if ( err ) {
       return res.status( 500 ).json({

@@ -84,7 +84,7 @@ router.post('/cambiarPassword', (req: Request, res: Response) => {
             // setup email data with unicode symbols
             let mail_options = {
                 from: env.EMAIL_FROM, // sender address
-                to: body.to, // list of receivers
+                to, // list of receivers
                 subject: mail_subject, // Subject line
                 text: mail_template, // plain text body
                 html: mail_template // html body
